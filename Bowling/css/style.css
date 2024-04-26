@@ -1,0 +1,53 @@
+body {
+ background-color: "#6686d1";
+    margin: 0;
+    overflow: hidden;
+}
+
+#webgl{
+ /*border:solid 2px red;
+ margin-left: 0.5cm;
+ width:95%;
+ height:95%;*/
+ background-color:#6686d1;
+}
+
+#score{
+    background-color: #6686d1;
+}
+
+fieldset{
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2mm double white;
+}
+
+#tableauScore{
+
+    border-collapse: collapse;
+
+}
+
+.rouge{
+    border: 1mm solid #003cff ;
+    border-collapse: collapse;
+    color: #ed0c0c;
+}
+
+.bleu{
+    border: 1mm solid #ed0c0c ;
+    border-collapse: collapse;
+    color: #003cff;
+}
+
+td{
+    width: 5cm;
+    height: 5mm;
+}
+tr{
+    width: 5cm;
+    height: 5mm;
+}
+
+
+

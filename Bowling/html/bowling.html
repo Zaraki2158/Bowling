@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta  charset="utf-8">
+    <meta name="author" content="GUIBARD_Theo_GIE_Jimmy" >
+    <title>Projet Bowling</title>
+    <script type="text/javascript" charset="UTF-8" src="../../libs/three/three.js"></script>
+    <script type="text/javascript" src="../../libs/util/dat.gui.js"></script>
+    <script type="text/javascript" src="../../libs/util/Stats.js"></script>
+    <script type="text/javascript" src="../../libs/util/util.js"></script>
+    <script type="text/javascript" src="../js/GeometrieUtile.js"></script>
+    <script type="text/javascript" src="../js/CameraLumiere.js"></script>
+    <script type="text/javascript" src="../js/ModeleMateriaux.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body onload="init()">
+    <div id="webgl"></div>
+    <form id="score" action="mailto:toto@wanadoo.fr" method="post">
+      <fieldset>
+        <legend>TABLEAU DES SCORES</legend>
+        <div>
+          <table id="tableauScore">
+          <tr>
+            <th class = "bleu">Equipe Bleue</th>
+            <th class = "rouge">Equipe Rouge</th>
+          </tr>
+          <tr>
+            <td class = "bleu"><input type="number" id="scoreBleu" name="scoreBleu" min="0" value="0" /></td>
+            <td class = "rouge"><input type="number" id="scoreRouge" name="scoreRouge" min="0" value="0" /></td>
+          </tr>
+          </table>          
+        </div>
+      </fieldset>
+    </form>
+    <p id="result"></p>
+</body>
+
+</html>

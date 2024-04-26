@@ -1,0 +1,13 @@
+body {
+ background-color: white;
+margin: 0.5;
+    overflow: hidden;
+}
+
+#webgl{
+ /*border:solid 2px red;
+ margin-left: 0.5cm;
+ width:95%;
+ height:95%;*/
+ background-color:#6686d1;
+}
